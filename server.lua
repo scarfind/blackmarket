@@ -3,7 +3,7 @@ ESX.RegisterServerCallback('processItemSale', function(source, cb, itemName, ite
     local xPlayer = ESX.GetPlayerFromId(source)
 
     if not xPlayer then
-        print("Player not found")
+        print("Hrac sa nenasiel")
         cb(false)
         return
     end
